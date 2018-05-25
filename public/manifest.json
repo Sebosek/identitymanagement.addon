@@ -1,0 +1,19 @@
+{
+    "name": "Identity management",
+    "version": "0.1.0",
+    "description": "Workplace Hub identity management token provider for Chrome",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 2
+}
